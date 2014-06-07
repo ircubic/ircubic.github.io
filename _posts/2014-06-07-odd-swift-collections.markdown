@@ -25,6 +25,14 @@ let array = [1, 2, 3, 4]
 array[2] = 200 // array is now [1, 2, 200, 4]
 ```
 
+Doing anything that changes its length however is a compile time error:
+
+```
+array.append(20)
+// error: Immutable value of type of 'Array<int>' only has mutating
+// members named 'append'
+```
+
 Arrays get even weirder when you send them as a parameter. Dictionaries get
 automatically copied so you can't stomp over the contents of the source array
 accidentally. Arrays, however, retain the weirdness from before, and only get
