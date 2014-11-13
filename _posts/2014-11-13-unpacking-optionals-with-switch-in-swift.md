@@ -20,7 +20,7 @@ Objective C, you'll do a lot of) and you're only using the `if let` syntax to
 deal with it, it can get real nasty and you'll end up with code like this (or
 worse):
 
-```Swift
+```swift
 if let x = optx {
   if let y = opty {
     if let z = optz {
