@@ -5,9 +5,10 @@ date:   2014-06-07 18:00:00
 categories: blog
 ---
 
-Apple has released its new language, Swift, on the unsuspecting beta masses, and
-it's pretty swell. However, there's an oddity in the behaviour of its collections
-(dictionaries and arrays) that deserves to have some light shone on it.
+Apple has released its new language, Swift, on the unsuspecting beta masses,
+and it's pretty swell. However, there's an oddity in the behaviour of its
+collections (dictionaries and arrays) that deserves to have some light shone on
+it.
 
 The details are hidden away in an obscure corner of the Swift book, with the
 surprisingly boring and inconspicious title "Assignment and Copy Behavior for

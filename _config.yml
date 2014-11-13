@@ -1,4 +1,7 @@
 name: ircubic
-markdown: redcarpet
-pygments: true
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: pygments
 paginate: 5
