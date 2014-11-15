@@ -8,7 +8,7 @@ If you're working with a mixed Objective C and Swift codebase and you also
 write tests (if you're not, you should be), you might need to access your Swift
 objects from Objective C tests. This does not work out of the box in XCode 6.1
 (although accessing them from Swift tests works perfectly well), but I managed
-to find a solution.
+to find a workable (though not perfect) solution.
 
 The main issue is that the two most obvious ways of accessing the Swift code of
 your main target, `#import "Module-Swift.h"` and `@import Module`, do not work
