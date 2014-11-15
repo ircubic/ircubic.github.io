@@ -244,8 +244,12 @@ h1.header {
 }
 
 
-h1.header, a.header, a.name, header a{
+h1.header, a.header, a.name {
 	color: #fff;
+}
+
+header a {
+  color: #d00;
 }
 
 a.header {
@@ -306,6 +310,11 @@ a.buttons {
 
 a.github {
 	background: url(../images/octocat-small.png) no-repeat 1px;
+}
+
+a.twitter {
+  background: url(https://g.twimg.com/Twitter_logo_white.png) no-repeat 1px;
+  background-size: 18px;
 }
 
 a.buttons:hover {
