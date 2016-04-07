@@ -1,10 +1,9 @@
 ---
 layout: post
 title:  "Ubuntu on Windows: First impressions"
-date:   2016-04-07 12:00:00
+date:   2016-04-07 10:00:00
 categories: blog
 ---
-
 Ubuntu on Windows was just released to the (Insider) masses yesterday, and
 I've had a bit of time to play with it. It works surprisingly well, but the
 places where it doesn't work stick out like a sore thumb, and hamper it from

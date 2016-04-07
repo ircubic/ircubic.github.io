@@ -5,3 +5,4 @@ kramdown:
   hard_wrap: false
 highlighter: rogue
 paginate: 5
+gems: [jekyll-paginate]
