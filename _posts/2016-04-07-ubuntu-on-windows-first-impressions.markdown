@@ -44,7 +44,8 @@ for me, and one that will have to be addressed for this solution to be more
 than just an alternate way of manipulating files.
 
 While playing with it I also came across some other limitations or quirks,
-mostly related to interacting with the file system and terminal emulation:
+mostly related to secondary package managers, interacting with the file system
+and terminal emulation:
 
 When accessing the Windows drives, the POSIX permissions are essentially just
 for show. They can't be altered, everything is 777 and owned by root:root, but
@@ -71,6 +72,11 @@ had to reset it.
 This, as mentioned before, is a point where Microsoft is actively going to
 improve the solution in the near future, from what I've read, and it works
 just well enough to be able to use.
+
+It also seems that both `npm` and `gem` run into problems installing some
+packages. Mostly this seems to relate to packages with native modules or
+symlinks, but `npm` also fails seemingly randomly. I managed to install
+Express.js by simply running the command repeatedly until it succeeded.
 
 All in all, it's a promising start, with some very obvious sore points that
 have to be addressed if the solution is going to be anything more than just a
