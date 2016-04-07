@@ -25,6 +25,8 @@ Windows system:
    don't work, or work improperly.
  - No windowing (a consequence of the previous point), so no graphical apps.
  - Terminal emulation is incomplete. (This issue, to my knowledge, is being worked on.)
+ - POSIX-y filesystem operations on the Windows drives (`/mnt/c` et al.) don't work,
+   either succeeding and doing nothing or straight up crashing. (changing permissions, making symlinks)
 
 Two of these issues come together to cause the biggest hangup I have with this
 solution: you can't run any servers. You can't start any services with
@@ -56,8 +58,10 @@ directory as your Windows user, instead of `/root`, which is the default), but
 due to the permissions issue there is little point unless you enjoy sudo-ing
 all the time.
 
-In addition, the system can get very confused with Windows' "magic" folders,
-which show up like this:
+In addition, it's impossible to create symlinks on the Windows drives (which
+precludes running some software that rely on them from Windows drives), and
+the system can get very confused with Windows' "magic" folders, which show up
+like this:
 
 ![How helpful](/images/uow-magic.png)
 
