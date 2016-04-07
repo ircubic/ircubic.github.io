@@ -8,13 +8,13 @@ While I was working on a piece of code written in Swift I struggled with making
 complicated logic with optionals in a nice way. I eventually figured how to do
 it with the `switch` statement, complete with unpacking. I'll first describe
 the background of the solution (in ways of examples), then the solution I came
-up with. 
+up with.
 
 If you just want the **TL;DR** on how to unpack optionals with `switch`, feel
 free to [skip ahead](#the-real-solution).
 
 ## The optionals problem
- 
+
 If you're working with multiple optionals (which, if you're interfacing with
 Objective C, you'll do a lot of) and you're only using the `if let` syntax to
 deal with it, it can get real nasty and you'll end up with code like this (or
@@ -40,7 +40,9 @@ However, when optionals are involved it isn't straight forward how exactly to
 take advantage of the matching in a sensible matter while not having to deal
 with unpacking.
 
-To illustrate the problem and a few non-working solutions I'm going to go through an example (similar in spirit to what I was doing), and the solutions you might try. Let's say you want to write this function:
+To illustrate the problem and a few non-working solutions I'm going to go
+through an example (similar in spirit to what I was doing), and the solutions
+you might try. Let's say you want to write this function:
 
 ```Swift
 func checkLegality(name:String?, age:Int?) -> String {
@@ -63,11 +65,11 @@ func checkLegality(name:String?, age:Int?) -> String {
     if age >= 18 {
       var nameString = ""
       if let name = name {
-        nameString = ", \(name)"    
-      } 
+        nameString = ", \(name)"
+      }
       return "Welcome to the bar\(nameString)!"
     }
-  } 
+  }
 
   return "You're not allowed!"
 }
@@ -137,7 +139,7 @@ The crucial hint is that the `Optional` type acts like it is, under the hood, an
 
 ```Swift
 enum Optional<T> {
- case Some(x:T) 
+ case Some(x:T)
  case None
 }
 ```
