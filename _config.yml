@@ -3,5 +3,5 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
-highlighter: pygments
+highlighter: rogue
 paginate: 5
