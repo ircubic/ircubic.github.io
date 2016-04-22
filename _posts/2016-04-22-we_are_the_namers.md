@@ -1,7 +1,7 @@
 ---
 title: We are the namers
 layout: post
-date: 2016-04-22 19:06 W. Europe Daylight Time
+date: 2016-04-22 17:06
 categories: blog
 ---
 
@@ -16,22 +16,22 @@ Like an army of godlings
 sent by Alpha and Omega
 to make life
 
-Like the occultists of old
-and shamans before them
-We use the names to form the chaos
-and incantations to give them meaning
+Like the occultists of old,
+and shamans before them,
+We use names to form the chaos,
+and incantations to construct their meaning
 
-Many methods and tools exist
-arcane and otherwise
+Many methods and tools exist,
+arcane and otherwise,
 many different schools of thought
-and things over which to squabble
+and things over which to squabble,
 but at the end there always is
 
-the names
+the names.
 
-The names which Bind
-The names which Shape
-The names that imbue Meaning
+The names that Bind
+The names that Shape
+The names that imbue the Meaning
 and last we have
 The names that grant
 Control over the chaos
@@ -45,8 +45,8 @@ but in truth these are abstractions.
 We are namers, shapers of digital chaos
 We build vast structures
 of complexity upon complexity
-We mold the domain to serve our purpose
-but all upon the dual backs
+We mold domains to serve our purpose,
+but always upon the dual backs
 of Names and Meaning
 
 We are the namers.
