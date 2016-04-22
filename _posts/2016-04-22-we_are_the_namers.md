@@ -3,11 +3,14 @@ title: We are the namers
 layout: post
 date: 2016-04-22 17:06
 categories: blog
+excerpt_separator: <!--more-->
 ---
 
 In a departure from the common theme of my blog, and what must unquestionably
 have been a fit of insanity, I temporarily forgot that I am not a poet and
 wrote some words on how I feel about my profession:
+
+<!--more-->
 
 ```
 We descend upon digital chaos
